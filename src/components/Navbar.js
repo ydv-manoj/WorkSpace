@@ -14,8 +14,7 @@ export default function Navbar() {
     <nav className="navbar">
       <ul>
         <li className="logo">
-          <img src={Temple} alt="dojo logo" />
-          <span>The Dojo</span>
+          <img style={{height:'150px',width:'100%'}} src={Temple} alt="workspace logo" />
         </li>
 
         {!user && (
